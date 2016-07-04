@@ -1,0 +1,305 @@
+body{
+  background-color: black;
+  color: white;
+  padding:20px;
+}
+
+.mobilenav{
+  display: none;
+}
+.servicenav{
+    margin-top: -5px;
+}
+img{
+  user-drag: none; 
+-moz-user-select: none;
+-webkit-user-drag: none;
+}
+.bookev{
+      margin-top: 20px;
+    margin-bottom: 10px;
+}
+.bookev h2{
+  font-size: 40px;
+}
+.navbar-default{
+  background-color: transparent;
+  border:none;
+}
+.navbar-default .navbar-nav > li > a{
+  color: white;
+}
+.navbar-default .navbar-nav > li > a:hover{
+  color: #ffba81;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+  color: #ffba81;
+  background-color: transparent;
+}
+.nav > li > a{
+  padding: 0px 3px;
+  font-size: 30px;
+      font-size: 24px;
+    font-weight: bold;
+}
+.centerit{
+  text-align: center;
+  margin: 0 auto;
+}
+.centerit table{
+margin: 0 auto;
+}
+.navbar{
+  margin-bottom: 0px;
+  min-height: 100%;
+  margin-top: 20px;
+}
+.underline{
+  text-align: center;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.calheading{
+  text-align: right;
+}
+.calheading img{
+  text-align: center;
+  color: #ffba81;
+  margin-top: 20%;
+}
+.slider{
+  /*background-image:url("../images/sliderframe.png");
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  margin-top: 6%;
+}
+.signupsec{
+  text-align: center;
+}
+.forth{
+  font-size: 20px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  margin: auto;
+  height: 330px;
+  width: 100%;
+}
+.carousel{
+/*  padding-top: 13px;
+  padding-left: 4px;*/
+}
+.carousel-control.right{
+  background: none;
+}
+.carousel-control.left{
+  background:none;
+}
+input, select, textarea{
+  color: white;
+  border:none;
+  background-color: black;
+}
+.inputlogo{
+  margin-top: -42px;
+}
+.sigup{
+  height: 30px;
+  margin-left: 4px;
+  width: 154px;
+}
+textarea:focus, input:focus{
+  outline: 0;
+}
+.siguptext{
+  padding-top: 10px;
+  text-align: center;
+}
+.calendar{
+  padding-top: 35%;
+}
+.signupsec h2{
+font-size: 48px;
+}
+.signupsec{
+margin-top: 5%
+}
+.check{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+.maincontent{
+margin-top: 20px;
+}
+.videoframe{
+  /*background-image:url("../images/videoframe.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 20px;
+  padding-right:20px;
+  padding-top: 13px;*/
+  
+}
+.resvdo{}
+@media only screen and (max-width: 770px) {
+.videoframe{
+width: 95%;
+}
+.resvdo{
+width: 95%;	
+	}
+	.imgcntr {
+    text-align: center;
+}
+}
+@media only screen and (max-width: 320px) {
+.chkm{
+	width:100%;
+	}
+}
+
+
+@media only screen and (max-width: 480px) {
+  .calheading{
+    text-align: center;
+  }
+.mobilenav{
+  display: block !important;
+}
+.servicenav{
+    margin-top: 0px;
+}
+.customwidth{
+  width: 100%;
+}
+
+.desktopnav{
+  display: none;
+}
+.mb{
+  margin-top: 0px;
+}
+}
+
+
+.mb{
+  margin-bottom: 20px;
+      margin-top: -20px;
+}
+.linedevide{
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: -82px;
+}
+
+/*Datepicker*/
+.picker-container {
+  position: absolute;
+  z-index: 99;
+}
+.cal {
+  display: block;
+  width: 216px;
+  border-collapse: collapse;
+  border-radius: 6px;
+  border: 1px solid gray;
+}
+.cal a {
+  text-decoration: none;
+}
+.cal tr, .cal th, .cal td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.cal caption {
+  line-height: 32px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  background: #120f2b;
+  border-bottom: 1px solid #313131;
+}
+.cal caption a {
+  display: block;
+  line-height: 32px;
+  padding: 0 10px;
+  font-size: 15px;
+  color: #e2e2e2;
+}
+.cal caption a:hover {
+  color: white;
+}
+.cal caption .prev {
+  float: left;
+}
+.cal caption .next {
+  float: right;
+}
+.cal th, .cal td {
+  width: 30px;
+  text-align: center;
+
+}
+.cal th:first-child, .cal td:first-child {
+  border-left: 0;
+}
+.cal th {
+  line-height: 20px;
+  font-size: 8px;
+  color: white;
+  text-transform: uppercase;
+  background: #161818;
+  border-left: 1px solid black;
+}
+.cal td {
+  font-size: 11px;
+  font-weight: bold;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+.cal td a {
+  clear: both;
+  display: block;
+  position: relative;
+  width: 30px;
+  line-height: 28px;
+  color: white;
+  background-color: black;
+}
+.cal td a:hover, .cal td.off a {
+  background: black;
+}
+.cal td.off a {
+  color: #b3b3b3;
+}
+.cal td.active a, .cal td a:active {
+  margin: -1px;
+  color: #f3f3f3;
+  background: #6dafbf;
+  border: 1px solid #598b94;
+  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+}
+.cal td.active:first-child a, .cal td:first-child a:active {
+  border-left: 0;
+  margin-left: 0;
+}
+.cal td.active:last-child a, .cal td:last-child a:active {
+  border-right: 0;
+  margin-right: 0;
+}
+.cal tr:last-child td.active a, .cal tr:last-child td a:active {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+.grow:hover { transform: scale(1.1); }
